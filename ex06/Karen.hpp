@@ -6,7 +6,7 @@ class Karen
 public:
 	Karen();
 	~Karen();
-	void	filter(std::string level);
+	void	complain(std::string level);
 	
 private:
 	void	debug(void);

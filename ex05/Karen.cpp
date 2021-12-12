@@ -26,10 +26,10 @@ void	Karen::complain(std::string level)
 	int	i;
 
 	std::string levels[4] = {
-		"debug",
-		"info",
-		"warning",
-		"error",
+		"DEBUG",
+		"INFO",
+		"WARNING",
+		"ERROR",
 	};
 
 	void	(Karen::*complaint[])( void ) = {

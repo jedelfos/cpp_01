@@ -21,7 +21,7 @@ void	Karen::error()
 	std::cout << "[ERROR] This is unacceptable, I want to speak to the manager now. \n\n";
 }
 
-void	Karen::filter(std::string level)
+void	Karen::complain(std::string level)
 {
 	int	level_int;
 	std::string levels[] = {
